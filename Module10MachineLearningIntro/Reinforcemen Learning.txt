@@ -1,0 +1,4 @@
+Reinfrocement Learnin [Computer Games]
+
+1. Agent : which iteracts with the environment
+2. Environment 

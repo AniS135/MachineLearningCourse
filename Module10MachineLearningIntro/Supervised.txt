@@ -1,0 +1,20 @@
+Supervised learning
+
+Training =>
+
+-> Learn from data (labelled)
+-> Generalise predictions on future data
+-> avoid "OVERFITTING"
+
+Output =>
+
+-> Regression [Continuous] Example -> Housing, Cgpa, Stock Price
+   Goal to minimize loss(erro)
+-> Classification [Discrete label]
+   Goal to minimize the number of misclassification 
+
+Training Data -> Algorithm -> Hypothesis(h)
+
+Unseen Data -> h -> predictions
+
+h -> function having parameters

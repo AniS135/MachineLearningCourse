@@ -1,0 +1,15 @@
+Unsupervised learning
+
+-> No "Supervision", no labelled
+-> Grouping similar datapoints(cluster)
+-> find patterns
+
+Semi Supervised learning =>
+
+-> We manually label data
+
+Common Application ->
+
+-> Object Segmentation
+-> Similarity Detection
+-> Automatic labelling

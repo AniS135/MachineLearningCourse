@@ -1,0 +1,42 @@
+1. Scalars & Vectors
+   -> Scalar is a single number, denoted as x
+
+   -> Vector is an array of scalars, denoted by x.
+      -> Thus, a vector  has n scalars x1, x2, .. xn
+      -> Note that indexing here begins with 1, unlike python (where it begins with 0)
+      -> Generally these are column vector
+
+2. Matrices & Tensors
+   -> Matrix is a 2D array of scalars, denoted by x
+      -> This matrix has m rows and n columns
+      -> Each individual element such as X1,1 is a scalars
+      -> If m = n, the matrix is known as Square Matrix
+
+   -> Tensor is an array with more than 2 axes, denoted as X(Capital)
+      -> Think of Tensor as a generalization of an array with more than 2 axes
+
+3. Transpose
+   -> For a 2D matrix tranapose can be obtainded as follows (AT)i,j = Ai,j
+
+4. Broadcasting
+   -> You can add a scalar to a vector, and numpy will add it to each element in the vector
+      x + a = xi + a
+   -> Similary you can add a vector to a matrix, and numpy will add the vector to each column of the matrix
+
+5. Matrix Multiplication
+   -> Ci,j = Ek Ai,k Bk,j
+
+Linear Algebra Library with Numpy -> https://numpy.org/doc/stable/reference/routines.linalg.html
+
+6. Norms
+   -> Norm can be thought of as a proxy for size of a vector
+   L2 = sqrt(E xi^2)
+   Lp = pow(E |xi|^p, 1/p)
+   -> L2 norm is called the Euclidean Norm
+
+7. Determinants
+
+8. Inverse
+
+9. Solve a System of Equations
+

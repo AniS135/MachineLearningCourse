@@ -1,0 +1,11 @@
+k-NN [K Nearest Neighbours]
+
+-> Simple Machine learning algorithm
+-> Classification & Regression
+-> Supervisied learning
+-> Majority Vote
+-> No Training O(1)
+-> All the work happens at query time O(Nlog(N) * Q)
+
+-> Non - Parametric
+-> Baseline (Any other algorithm in machine learning should have higher accuracy than k-NN)
