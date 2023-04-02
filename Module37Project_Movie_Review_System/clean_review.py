@@ -4,7 +4,7 @@ from nltk.corpus import stopwords
 import sys
 
 # Init Objects
-tokenizer = RegexpTokenizer(r'\w+')
+tokenizer = RegexpTokenizer(r"\b[a-zA-Z]*\b")
 en_stopwords = set(stopwords.words('english'))
 ps = PorterStemmer()
 
@@ -38,6 +38,7 @@ def getStemmedDocument(inputFile, outputFile):
 
 # Read command line arguments
 
-inputFile = "Module37Project_Movie_Review_System\\Datasets\\" + sys.argv[1]
-outputFile = "Module37Project_Movie_Review_System\\Datasets\\" +  sys.argv[2]
-getStemmedDocument(inputFile, outputFile)
+if __name__ == '__main__':
+    inputFile = "Module37Project_Movie_Review_System\\Datasets\\" + sys.argv[1]
+    outputFile = "Module37Project_Movie_Review_System\\Clean_Datasets\\" +  sys.argv[2]
+    getStemmedDocument(inputFile, outputFile)
